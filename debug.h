@@ -1,6 +1,8 @@
 #ifndef clox_debug_h
 #define clox_debug_h
 
+  ValueArray constants;
+
 #include "chunk.h"
 
 void disassembleChunk(Chunk* chunk, const char* name);
